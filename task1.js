@@ -12,5 +12,4 @@ const givenDate = Date.parse(new Date(inputArg))
 // Calculate the difference between the two dates. Minus 1970 as each date is milliseconds since 1970. 
 const difference = (new Date(currentDate - givenDate).getUTCFullYear()) - 1970
 
-
 console.log(difference)
